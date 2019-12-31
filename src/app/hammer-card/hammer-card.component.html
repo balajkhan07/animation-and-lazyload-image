@@ -1,0 +1,9 @@
+<p [@cardAnimator]="animationState" 
+    (@cardAnimator.done)="resetAnimationState()"
+    (swipeleft)="startAnimation('slideOutLeft')" 
+    (swiperight)="startAnimation('zoomOutRight')"
+    (swipeup)="startAnimation('rotateOutUpRight')" 
+    (swipedown)="startAnimation('flipOutY')"
+    hammertime
+    (doubleTap)="startAnimation('jello')"
+    (tripleTap)="startAnimation('swing')">hammer-card works!</p>
