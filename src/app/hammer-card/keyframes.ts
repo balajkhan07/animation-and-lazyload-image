@@ -10,7 +10,6 @@ export const wobble = [
 ]
 
 export const jello = [
-    // style({transform: 'none', offset: .111}),
     style({transform: 'skewX(-12.5deg) skewY(-12.5deg)', offset: .111}),
     style({transform: 'skewX(6.25deg) skewY(6.25deg)', offset: .222}),
     style({transform: 'skewX(-3.125deg) skewY(-3.125deg)', offset: .333}),
